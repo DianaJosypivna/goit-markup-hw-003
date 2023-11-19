@@ -215,6 +215,8 @@ column-gap: 24px;
 /* ====================section 3==================== */
  .section-three {
     background: #F4F4FD;
+    padding: 120px 0 120px;
+
  }
 
  .section-three-title {
@@ -225,6 +227,19 @@ column-gap: 24px;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+
+  .menu-team {
+    display: flex;
+    display: block;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    padding: 232px 1020px 120px 156px;
+    justify-content: space-between;
+    align-items: center;
+
   }
 
  .item-team {
