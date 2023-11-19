@@ -232,14 +232,7 @@ column-gap: 24px;
 
   .menu-team {
     display: flex;
-    display: block;
-    gap: 24px;
-    border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
-    padding: 232px 1020px 120px 156px;
-    justify-content: space-between;
-    align-items: center;
-
+    column-gap: 24px;
   }
 
  .item-team {
@@ -264,6 +257,8 @@ letter-spacing: 0.02em;
 
 
 /* ====================section 4==================== */
+
+
  .title-portfolio {
  color: #2e2f42;   
 text-align: center;
@@ -276,6 +271,7 @@ text-transform: capitalize;
 
  .menu-portfolio {
     border: 1px  #E7E9FC;
+    display: flex;
  }
 
  .title-portfolio{
